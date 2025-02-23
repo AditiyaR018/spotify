@@ -1,0 +1,17 @@
+remifont(lots of free fonts available)
+(CODE WITH HARRY)
+-----------------------------------------------
+search svg spec 
+xmlns="http://www.w3.org/2000/svg"
+so that we can see the Image
+-----------------------------------------------
+chrome extension ->whatfont
+-----------------------------------------------
+we can directly import css code by pressing import at
+googlefonts,Then take the family font from there only.
+-----------------------------------------------
+hugeIcons(for fonts)-free svg and fonts
+-----------------------------------------------
+favicon.ico is the icon that appears in the browser tab.
+The browser automatically looks for it in your project folder.
+just press ctrl+shift+r to appear on the tab
