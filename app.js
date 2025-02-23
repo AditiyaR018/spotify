@@ -23,7 +23,7 @@ async function getSongs() {
     for (let index = 0; index < as.length; index++) {
         const element = as[index];
         if (element.href.endsWith(".mp3")) {
-            songs.push(element.href.split("/songs/")[1]);//now a tag ke andr href(link) ko access krke we are pushing it to songs array...
+            songs.push(element.href.split("/spotify-main/songs/")[1]);//now a tag ke andr href(link) ko access krke we are pushing it to songs array...
             // .split("")->jo bhi element eiske andr hoga voh us element ke pehla aur baad 2 array bnayaga jika ham baad waala part yaani [1]
             /// access kr rhe hain aur usko push krwa rhe hain
         }
@@ -33,7 +33,7 @@ async function getSongs() {
 
 const playMusic = (track, pause = false) => {
     // let audio = new Audio("/songs/" + track);
-    currentsong.src = "/songs/" + track;
+    currentsong.src = "/spotify-main/songs/" + track;
     if (!pause) {
         currentsong.play();
         play.src = "svg_folder/pause.svg";//it will change the icon to puase as song will start to play
