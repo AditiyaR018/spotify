@@ -13,7 +13,7 @@ function formatTime(seconds) {
     return `${minutes}:${secs}`;
 }
 async function getSongs() {
-    let a = await fetch("http://127.0.0.1:3000/songs/");
+    let a = await fetch("http://127.0.0.1:3000/spotify-main/songs/");
     const response = await a.text();// html ko string mein convert krega(as directly nhi deta)
     // console.log(response);
     let div = document.createElement("div");
